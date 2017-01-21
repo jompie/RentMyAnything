@@ -205,14 +205,21 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Demonstrations\ServerControls.aspx.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demonstrations\ServerControls.aspx.designer.cs">
+      <DependentUpon>ServerControls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="IntroToCss.aspx.cs">
+    <Compile Include="Demonstrations\IntroToCss.aspx.cs">
       <DependentUpon>IntroToCss.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="IntroToCss.aspx.designer.cs">
+    <Compile Include="Demonstrations\IntroToCss.aspx.designer.cs">
       <DependentUpon>IntroToCss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
@@ -227,10 +234,11 @@
     <Content Include="Content\IntroToCss.css" />
     <Content Include="Content\main.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Demonstrations\ServerControls.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="IntroToCss.aspx" />
+    <Content Include="Demonstrations\IntroToCss.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
