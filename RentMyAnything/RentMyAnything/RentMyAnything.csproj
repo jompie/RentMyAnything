@@ -198,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserDemoGraphicsController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -325,6 +326,8 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Site.Master" />
+    <Content Include="Views\UserDemoGraphics\Index.cshtml" />
+    <Content Include="Views\UserDemoGraphics\Manage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Admin\" />
