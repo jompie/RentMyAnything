@@ -205,6 +205,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Demonstrations\Page1.aspx.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demonstrations\Page1.aspx.designer.cs">
+      <DependentUpon>Page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demonstrations\Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demonstrations\Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Demonstrations\ServerControls.aspx.cs">
       <DependentUpon>ServerControls.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,6 +248,8 @@
     <Content Include="Content\IntroToCss.css" />
     <Content Include="Content\main.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Demonstrations\Page1.aspx" />
+    <Content Include="Demonstrations\Page2.aspx" />
     <Content Include="Demonstrations\ServerControls.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
