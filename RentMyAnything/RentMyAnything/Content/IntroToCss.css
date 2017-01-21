@@ -1,8 +1,8 @@
 ﻿body{
-            color: greenyellow;
-            font-size: 20px;
-            font-weight: 800;
-            background-color: lightblue;
+    color: #800080;
+    font-size: xx-large;
+    font-weight: 800;
+    background-color: lightblue;
 }
 h1{
     color: red;
@@ -11,4 +11,9 @@ h1{
 .special{
     color: black;
     font-size: 16px;
+}
+.introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #800000;
 }
