@@ -345,6 +345,7 @@
     <Content Include="Views\UserDemoGraphics\Index.cshtml" />
     <Content Include="Views\UserDemoGraphics\Manage.cshtml" />
     <Content Include="WebForms.Master" />
+    <Content Include="Views\Shared\_MVCLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
