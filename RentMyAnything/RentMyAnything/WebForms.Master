@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebForms.master.cs" Inherits="RentMyAnything.WebForms" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="RentMyAnything.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+
+        </div>
+        <div id="nav">
+            navigation content here
+        </div>
+        <div id="section">
+            <asp:ContentPlaceHolder ID="ContentPlaceholder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            footer content here
+        </div>
+    </form>
+</body>
+</html>

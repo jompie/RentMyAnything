@@ -190,6 +190,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -237,11 +244,11 @@
     <Compile Include="Demonstrations\IntroToCss.aspx.designer.cs">
       <DependentUpon>IntroToCss.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ManageItem.aspx.cs">
+    <Compile Include="Admin\ManageItem.aspx.cs">
       <DependentUpon>ManageItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ManageItem.aspx.designer.cs">
+    <Compile Include="Admin\ManageItem.aspx.designer.cs">
       <DependentUpon>ManageItem.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
@@ -257,8 +264,16 @@
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="WebForms.Master.cs">
+      <DependentUpon>WebForms.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms.Master.designer.cs">
+      <DependentUpon>WebForms.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\OrderList.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\IntroToCss.css" />
@@ -271,7 +286,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Demonstrations\IntroToCss.aspx" />
-    <Content Include="ManageItem.aspx" />
+    <Content Include="Admin\ManageItem.aspx" />
+    <Content Include="RentMyAnything.css" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -328,9 +344,9 @@
     <Content Include="Site.Master" />
     <Content Include="Views\UserDemoGraphics\Index.cshtml" />
     <Content Include="Views\UserDemoGraphics\Manage.cshtml" />
+    <Content Include="WebForms.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
