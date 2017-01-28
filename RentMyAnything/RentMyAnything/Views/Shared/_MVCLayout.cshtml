@@ -4,11 +4,25 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="~/RentMyAnything.css"
+    <link href="~/RentMyAnything.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+<div id="header">
+    
+</div>
+<div id="nav">
+    Navigation content here
+</div>
+<div id="section">
+    @RenderBody()
+</div>
+<div id="specialnotes">
+    @RenderSection("SpecialNotes", false)
+</div>
+<div id="footer">
+    footer content here
+</div>
+
+    
 </body>
 </html>

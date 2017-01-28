@@ -271,6 +271,9 @@
     <Compile Include="WebForms.Master.designer.cs">
       <DependentUpon>WebForms.Master</DependentUpon>
     </Compile>
+    <Compile Include="WebFormsBaseClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\OrderList.aspx" />
