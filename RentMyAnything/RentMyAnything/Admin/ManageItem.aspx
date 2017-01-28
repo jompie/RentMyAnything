@@ -1,4 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/WebForms.Master" AutoEventWireup="true" CodeBehind="ManageItem.aspx.cs" Inherits="RentMyAnything.ManageItem" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/WebForms.Master" AutoEventWireup="true" CodeBehind="ManageItem.aspx.cs" Inherits="RentMyAnything.ManageItem" 
+    MetatagDescription="Manage the items that are available to be checked out from te library"
+    MetaTagKeywords="Tools, Lending Library, Manage Items, actual useful keywords here"
+    %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

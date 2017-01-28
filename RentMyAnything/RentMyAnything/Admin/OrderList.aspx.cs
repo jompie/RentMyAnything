@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using RentMyAnything;
 
 namespace RentMyAnything.Admin
 {
-    public partial class OrderList : System.Web.UI.Page
+    public partial class OrderList : WebFormsBaseClass
     {
         protected void Page_Load(object sender, EventArgs e)
         {
