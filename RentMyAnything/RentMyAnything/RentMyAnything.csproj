@@ -374,6 +374,7 @@
     <Content Include="WebForms.Master" />
     <Content Include="Views\Shared\_MVCLayout.cshtml" />
     <Content Include="Web.sitemap" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
