@@ -349,6 +349,7 @@
     <Content Include="Views\UserDemoGraphics\Manage.cshtml" />
     <Content Include="WebForms.Master" />
     <Content Include="Views\Shared\_MVCLayout.cshtml" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
