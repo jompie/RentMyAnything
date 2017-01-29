@@ -15,7 +15,7 @@
 
         </div>
         <div id="nav">
-            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu>   
+            <asp:Menu ID="LeftNavigation" runat="server" DataSourceID="SiteMapDataSource1" IncludeStyleBlock="False"></asp:Menu>   
             <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
         </div>
         <div id="section">
